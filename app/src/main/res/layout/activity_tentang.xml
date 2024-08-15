@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".tentang">
+
+    <!-- Judul Aplikasi dengan Logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/handayani" /> <!-- Ganti dengan nama file logo Anda -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APLIKASI PENENTUAN KEMATANGAN KELUAK METODE GLCM DAN KNN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingLeft="8dp" />
+
+    </LinearLayout>
+
+    <!-- Informasi Pengguna -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pengguna"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="16dp" />
+
+    <!-- Nama -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: Bobby Hendrik Mangopo"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <!-- NPM -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM: 2020020165"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <!-- Kampus -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kampus: Universitas Handayani Makassar"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <!-- Pengenalan Aplikasi -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengenalan Aplikasi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini menggunakan metode GLCM (Gray Level Co-Occurrence Matrix) dan KNN (K-Nearest Neighbors) untuk menentukan kematangan keluak. Dengan menggunakan gambar keluak sebagai input, aplikasi akan menganalisis tekstur dan mengklasifikasikan kematangan keluak berdasarkan data yang telah dilatih. Hasilnya akan memberikan informasi mengenai tingkat kematangan keluak yang dapat digunakan dalam berbagai aplikasi terkait keluak."
+        android:textColor="#000000"
+        android:textAlignment="textStart"
+        android:justificationMode="inter_word"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <!-- Menu Panduan -->
+    <LinearLayout
+        android:id="@+id/menu_panduan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/device" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Deteksi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <!-- Garis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="40dp">
+
+        <!-- Submenu Deteksi Objek -->
+        <LinearLayout
+            android:id="@+id/submenu_deteksi_objek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deteksi Objek"
+                android:textSize="16sp"
+                android:paddingStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/submenu_deteksi_objek_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panduan untuk melakukan deteksi objek dalam aplikasi."
+            android:paddingStart="24dp"
+            android:paddingEnd="8dp" />
+
+        <!-- Submenu Data Latih -->
+        <LinearLayout
+            android:id="@+id/submenu_data_latih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/device" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Latih"
+                android:textSize="16sp"
+                android:paddingStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/submenu_data_latih_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panduan untuk mengelola data latih yang digunakan dalam deteksi objek."
+            android:paddingStart="24dp"
+            android:paddingEnd="8dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Menu Riwayat Deteksi -->
+    <LinearLayout
+        android:id="@+id/menu_riwayat_deteksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_save" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Deteksi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu_riwayat_deteksi_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panduan untuk melihat riwayat deteksi objek yang telah dilakukan."
+        android:paddingStart="40dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Garis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Menu Daftar Pengguna -->
+    <LinearLayout
+        android:id="@+id/menu_daftar_pengguna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Pengguna"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu_daftar_pengguna_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panduan untuk mengelola daftar pengguna dalam aplikasi."
+        android:paddingStart="40dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Garis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Menu Informasi -->
+    <LinearLayout
+        android:id="@+id/menu_informasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu_informasi_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panduan untuk mendapatkan informasi terkait aplikasi."
+        android:paddingStart="40dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Garis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Menu Tentang -->
+    <LinearLayout
+        android:id="@+id/menu_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu_tentang_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panduan untuk mengetahui informasi lebih lanjut tentang aplikasi."
+        android:paddingStart="40dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Garis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

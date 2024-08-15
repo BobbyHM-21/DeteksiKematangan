@@ -1,0 +1,4 @@
+Matang;Layak DiKonsumsi;
+Mentah;Tidak Layak DiKonsumsi;
+Setengah Matang;;
+Bukan Objek Keluak;;Gambar Yang Anda Masukan Bukan Objek Keluak
